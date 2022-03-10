@@ -68,8 +68,9 @@ html, body {
 .center {
     width: 800px;
 	padding: 2%;
+	border-radius: 30px;
     margin: 100px auto;
- 	background: rgba(144, 170, 119, 0.35); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(144, 170, 119, 0.30); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
 
@@ -86,7 +87,7 @@ h1 {
 	font-family: garamond, serif;
 	font-size: 1.6em;
     margin: 0px auto 10px auto;
-    color: #FFFEF2;
+    color: #fffef1;
 }
 
 h2 {
