@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #82a376;
+  background: #FFFEF2;
 	
 	
 }
@@ -69,22 +69,24 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(236, 236, 216, 0.3); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(144, 170, 119, 0.35); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
 
 
    
 #logo {
-    margin-bottom: 16px;
+    margin-bottom: 0px;
 	text-align: center;
 }
 
+
+
 h1 {
 	font-family: garamond, serif;
-	font-size: 2em;
+	font-size: 1.6em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: #FFFEF2;
 }
 
 h2 {
@@ -106,10 +108,11 @@ p {
 }
     
     nav{
-		font-family: garamond;
+		font-family: arial;
 		font-size: 1.2em;
     	margin: 0px auto;
 		border-width: 3px 0;
+		border: solid #9aa384;
 		text-align: center;
 		margin-top: 2em;
 	}
@@ -124,7 +127,7 @@ p {
 	}
 
 	a{
-		color:#444;
+		color: white;
 		text-decoration: none;
 		font-weight: bold;
 	}
