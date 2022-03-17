@@ -60,7 +60,8 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: #FFFEF2;
+  /* background changed from solid cream color to grid image */
+  background: url(images/Untitled-2bg2.jpg);
 	
 	
 }
@@ -68,9 +69,9 @@ html, body {
 .center {
     width: 800px;
 	padding: 2%;
-	border-radius: 30px;
+	border-radius: 2ß0px;
     margin: 100px auto;
- 	background: rgba(144, 170, 119, 0.30); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(245, 255, 227, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 }
 
@@ -84,38 +85,43 @@ html, body {
 
 
 h1 {
-	font-family: garamond, serif;
-	font-size: 1.6em;
-    margin: 0px auto 10px auto;
-    color: #fffef1;
+	/* changed front from garamond to rustica; changed font color to green */
+	font-family: rustica, sans-serif;
+	font-size: 2.0em;
+	font-weight: 700;
+	font-style: normal;
+	margin-top: 25px;
+	margin-bottom: 14px;
+	color: #c1dfa6;
+    /* color: #fffef1; */
 }
 
 h2 {
-	font-family: mrs-eaves, serif;
+	/* changed front from garamond to rustica; changed font color to green */
+	font-family: rustica, sans-serif;
 	font-weight: 400;
-	font-style: normal;	
-	font-size: 1.5em;
-    line-height: 1.4;
-    color: #fff;
-    padding: 0px 0px;
-    margin: 0px auto 25px auto;
+	font-style: normal;
+	font-size: 1.3em;
+    margin: 15px;
+	color: #b5d19c;
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */		
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: #fff;
+	/* added p */
+	font-family: rustica, sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.1em;
+    margin: 2px auto 10px auto;
+	color: #a9c490;
 }
     
     nav{
 		font-family: arial;
 		font-size: 1.2em;
     	margin: 0px auto;
-		border-width: 3px 0;
-		border: solid #9aa384;
 		text-align: center;
-		margin-top: 2em;
+		margin-top: 1em;
 	}
 
 	nav li{
@@ -125,15 +131,20 @@ p {
 	nav a{
 		display:inline-block;
 		padding: 10px;
+		margin-bottom: 4px;
 	}
 
 	a{
-		color: white;
+		color: #AEC995;
 		text-decoration: none;
 		font-weight: bold;
 	}
 
 	a:hover{
-		color:black;
-		background:rgb(144, 170, 119);
+		/* changed hover colors */
+		color:rgba(245, 255, 227);
+		background: #AEC995;
 	}
+
+
+
