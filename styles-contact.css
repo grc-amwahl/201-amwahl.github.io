@@ -61,7 +61,7 @@ html, body {
   padding: 0;
   margin: 0;
   /* background changed from solid cream color to grid image */
-  background: url(images/background.jpg)
+  background: url(images/grid_bg.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
 	
